@@ -1,0 +1,351 @@
+.brand{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+    #logo {
+    width: 128px;
+    margin-left: auto;
+    margin-right: auto;
+        display: block;
+        background-color:#f2f2f2;
+        padding-top: 10px;
+
+}
+
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+.navbar-default{
+    background-color: #f2f2f2;
+    border-radius: 0;
+    margin-bottom: 0;
+    opacity: 0;
+
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    color: rgb(108, 108, 108);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.run{
+    background: url("../images/header.jpg")100%;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.run h1 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 40px;
+
+}
+.run p {
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 20px;
+}
+i.fa-play-circle-o{
+    color: #ffffff;
+
+}
+.btn-head{
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: #ffffff;
+    background-color: #94c44f;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.btn-head:hover{
+    color: #3c763d;
+    background-color: #ffffff;
+}
+.img1{
+    margin-left: 14%;
+}
+.first h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(148, 196, 79);
+    margin-top: 80px;
+
+
+}
+.media{
+    margin-top: 30px;
+}
+.animation1,.animation2,.animation3{
+    opacity: 0;
+}
+.animation1{
+    animation-delay: .3s;
+    -webkit-animation-delay:.3s ;
+}
+.animation2{
+    animation-delay: .6s;
+    -webkit-animation-delay:.6s ;
+}
+.animation3{
+    animation-delay: .9s;
+    -webkit-animation-delay:.9s ;
+}
+.counter{
+    padding:0 5px;
+}
+.media-body{
+    margin-left: 20px;
+}
+.media-heading  {
+    font-size: 16px;
+    color: rgb(148, 196, 79);
+    font-weight: bold;
+
+}
+.media:last-child{
+    margin-bottom: 20px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    opacity: 1;
+    transition:0.2s;
+}
+.media-body p{
+    font-size: 14px;
+}
+.analytics{
+    background: url("../images/second.jpg");
+    background-size: cover;
+}
+.analytics h1{
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+
+}
+.white{
+    font-weight:bold ;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8em;
+
+}
+.hr{
+    margin: 50px 0;
+    width: 80%;
+    color: #ffffff;
+}
+.secondrow{
+    margin: 40px 0;
+    margin-bottom: 50px;
+}
+.firstrow{
+    margin: 50px 0;
+}
+.secondrow p{
+    font-weight: bold;
+    color: #ffffff;
+
+
+}
+.secondrow p:first-child{
+    margin-top: 20px;
+}
+.aha{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.allinone{
+    background: url("../images/allinone.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.allinone h1{
+    color: #94c44f;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 60px;
+}
+.allinone p {
+    
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.trial{
+    background: url("../images/TREEZwebsite2_25.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.trial h1{
+    font-size:2em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.trial p{
+    font-weight: 500;
+    color: #ffffff;
+
+}
+.btn-trial{
+    background-color: #ffffff;
+    color: #3c763d;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 50px;
+    border: none;
+ margin-bottom: 50px ;
+    margin-top: 40px;
+}
+.contact{
+    text-align: center;
+}
+.contact h1{
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #5f5f5f;
+    text-transform: uppercase;
+}
+.contact p{
+    color: #7b7b7b;
+    margin-top: -20px;
+}
+.form-control{
+    -webkit-box-shadow: 2px 7px 5px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 7px 5px -5px rgba(0,0,0,0.5);
+    box-shadow: 2px 7px 5px -5px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+textarea{
+    margin-top: 20px;
+}
+.btn-send{
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #3c763d;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 70px;
+    border-radius: 0;
+}
+.tele{
+    font-size: 20px;
+    margin-top: 30px ;
+
+
+}
+.tele p{
+    margin-top: -5px;
+}
+.green{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #94c44f;
+}
+footer{
+    background: url("../images/para.jpg")100%;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 130px;
+}
+.copy{
+    text-align: center;
+    color: #696969;
+    padding: 30px 0;
+    font-weight: bold;
+    -webkit-box-shadow: -1px 10px 6px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 6px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 6px -5px rgba(0,0,0,0.75);
+}
+
+
+@media screen and (max-width: 768px) {
+    .run h1{
+        font-size: 1em;
+    }
+    .run p{
+        font-size: 0.7em;
+    }
+    .btn-head{
+        padding: 10px 10px;
+        font-size: 0.8em;
+    }
+    .first h1{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .analytics h1{
+        font-size: 1.3em;
+    }
+    .white{
+        margin-top: 20px;
+        font-size: 1.2em;
+    }
+    .allinone h1{
+        font-size: 1.3em;
+    }
+    .allinone p{
+        font-size: 0.8em;
+    }
+    .trial h1{
+        font-size: 1.3em;
+    }
+    .trial p{
+        font-size: 0.8em;
+    }
+    .btn-trial{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .contact h1{
+        font-size: 1.3em;
+    }
+    .contact p{
+        font-size: 0.8em;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 468px) {
+    .media-heading{
+        font-size: 13px;
+    }
+    .media-body p{
+        font-size: 12px ;
+    }
+    .btn-trial{
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .btn-send{
+        padding: 10px 10px;
+    }
+
+}
