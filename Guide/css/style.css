@@ -1,0 +1,326 @@
+.container {
+    width: 960px;
+    max-width: none !important;
+
+}
+header {
+   
+    width: 100%;
+    border-top:6px solid #151f2e;
+    height: 135px;
+    background: url("../images/05contacts_04.png") repeat-x;
+    
+}
+header .logo {
+    margin:10px 0 20px 0;
+width: 247px;
+    height: 83px;
+    float: left;
+
+}
+.social {
+    margin-top:13px;
+    float: right;
+}
+.social ul {
+    list-style-type: none;
+}
+.social ul li {
+    display: inline;
+}
+.navbar-default{
+    background: none;
+    border: none;
+}
+.navbar-right {
+
+    margin-right: -170px;
+    margin-top:15px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+    font-family: "Lato",sans-serif;
+    color: rgb(42, 185, 209);
+    text-transform: uppercase;
+    line-height: 1.5;
+   margin-top:30px;
+    float: right;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a:hover {
+   background: #182333;
+    color: rgb(42, 185, 209);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.slider {
+    height: 131px;
+    background: #159ab0;
+    width: 100%;
+
+}
+.media-carousel
+{
+    margin-bottom: 0;
+    padding: 0 50px 50px 50px;
+    margin-top: 10px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+    background: #333333;
+}
+.media-carousel img
+{
+    width: 250px;
+    height: 100px
+}
+/* End carousel */
+
+.sliderica h1 {
+    font-size: 24px;
+    font-family: "Lato",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.75;
+    text-shadow: 0.5px 0.866px 1px rgba(24, 158, 181, 0.75);
+
+}
+
+.sliderica p{
+    font-size: 13px;
+    font-family: "Trebuchet MS",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.385;
+
+}
+.border {
+    -webkit-box-shadow: 0px 0px 122px 11px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 0px 122px 11px rgba(0,0,0,0.77);
+    box-shadow: 0px 0px 122px 11px rgba(0,0,0,0.77);
+    height: 131px;
+}
+.number{
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    color: rgb(17, 27, 40);
+    color: rgb(17, 27, 40);
+
+}
+.number2{
+    color:#29a8be;
+    font-size: 18px;
+}
+
+
+
+.sliderica a{
+    font-size: 12px;
+    font-family: "Lato",sans-serif;
+    color: rgb(17, 27, 40);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;
+float: right;
+    padding-right: 50px;
+}
+.touch h1{
+    font-size: 28px;
+    font-family: "Lato",sans-serif;
+    color: rgb(32, 58, 89);
+    line-height: 1.071;
+padding-top: 30px;
+}
+
+.map {
+    width:305px;
+    height: 217px;
+    border:2px solid #e4e4e4;
+}
+.touch h3{
+    font-size: 13px;
+    font-family: "Trebuchet MS",sans-serif;
+    color: rgb(229, 143, 15);
+    font-weight: bold;
+    line-height: 1.385;
+
+}
+.text {
+    width: 310px;
+    height: 30px;
+    padding: 12px 5px;
+    margin-bottom: 6px;
+
+}
+.box {
+    width: 270px;
+    height: 70px;
+    background: #f4f4f4;
+    margin:5px 0;
+}
+.textarea {
+    width:510px;
+    height: 210px;
+    padding-bottom: 190px;
+    padding-left:5px;
+}
+.send {
+    width: 112px;
+    height: 28px;
+    float: right;
+    background: #1aa2b9;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Lato",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border: none;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+footer {
+
+    width: 100%;
+    height: 121px;
+    background: #f4f4f4;
+    margin-top: 40px;
+}
+footer .logo {
+    margin-top: 12px;
+    background: url("../images/Guide_20.png");
+    width: 127px;
+    height: 45px;
+}
+footer a {
+
+    font-size: 13px;
+    font-family: "Trebuchet MS",sans-serif;
+    color: rgb(162, 161, 161);
+    font-weight: bold;
+    line-height: 1.846;
+
+
+}
+footer p {
+    font-size: 13px;
+    font-family: "Trebuchet MS",sans-serif;
+    color: rgb(162, 161, 161);
+    font-weight: bold;
+    line-height: 1.385;
+    padding-top: 30px;
+
+}
+
+.touch ul  {
+
+    font-size: 12px;
+    font-family: "Trebuchet MS",sans-serif;
+    color: rgb(229, 143, 15);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.167;
+    text-align: left;
+padding-right: 10px;
+}
+
+.type {
+    background: url("../images/listyle.gif");
+}
+.touch p{
+    font-size: 13px;
+    font-family: "Trebuchet MS",sans-serif;
+    color: rgb(162, 161, 161);
+    line-height: 1.38;
+
+
+}
+.pp {
+    text-align: center;
+}
+.p2{
+    color: rgb(229, 143, 15);
+}
+.touch h2 {
+    font-size: 34px;
+    font-family: "Lato",sans-serif;
+    color: rgb(26, 162, 185);
+    text-transform: uppercase;
+    line-height: 0.588;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.touch h4{
+    font-size: 18px;
+    font-family: "Lato",sans-serif;
+    color: rgb(32, 58, 89);
+    line-height: 1.111;
+    text-align: left;
+
+}
+.slider2{
+    width: 100%;
+    height: 343px;
+    background: url("../images/05contacts_04.png") repeat-x;
+
+
+}
+.inner {
+    -webkit-box-shadow: 2px 4px 23px 16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 23px 16px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 23px 16px rgba(0,0,0,0.75);
+}
+.sliderica1 a{
+    font-size: 12px;
+    font-family: "Lato",sans-serif;
+    color: rgb(17, 27, 40);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;
+    float: right;
+
+}

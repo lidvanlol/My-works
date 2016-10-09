@@ -1,0 +1,404 @@
+
+.logo{
+    float: left;
+    margin-top:30px;
+}
+
+header .phones{
+    font-family: "OpenSans",sans-serif;
+    color: rgb(139, 35, 49);
+    font-size:  1.500em;
+    padding-left:10px;
+
+}
+.phones i{
+    font-size: 1.500em;
+}
+
+.callus h1{
+    font-size: 1.500em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+    float: right;
+
+}
+.callus p{
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: #c0c0c0;
+    float: right;
+
+}
+.callus a{
+    text-decoration: underline;
+    color:rgb(139,35,49);
+    font-size: 1.200em;
+    font-family: "OpenSans",sans-serif;
+ font-weight: bold;
+    text-transform: uppercase;
+
+}
+.slider{
+    width: 100%;
+
+
+}
+.carousel {
+
+    overflow: hidden;
+}
+.carousel .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.pic1{
+    background: url("../images/slide1.jpg");
+
+}
+.pic2{
+    background: url("../images/slide2.jpg");
+
+}
+.pic3{
+    background: url("../images/slide3.jpg");
+
+}
+
+
+.carousel .active.left, .carousel .active.right {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+.carousel .next, .carousel .prev {
+    left:0;
+    opacity:1;
+    z-index:1;
+}
+.item:nth-child(1) {
+    background: darkred;
+}
+
+.item:nth-child(2) {
+    background: red;
+}
+
+.item:nth-child(3) {
+    background: orange;
+}
+
+.slider h1{
+    font-size: 2.500em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 80px;
+
+}
+.slider h3{
+    font-size: 1.250em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 39px;
+
+}
+
+.second h1{
+    font-size: 2.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(139, 35, 49);
+    font-weight: bold;
+    padding-top: 60px;
+
+}
+
+.second p {
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+
+}
+.table {
+   margin-top: 40px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    vertical-align: middle;
+}
+.tablerow {
+    font-size: 0.875em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+
+}
+.country {
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 22px;
+}
+.option{
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+    line-height: 1.375;
+    text-align: left;
+
+
+}
+.amount{
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(139, 35, 49);
+    padding-top: 26px;
+
+
+}
+
+.enquire {
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #8b2331;
+    margin-top:50px;
+    width: 320px;
+    height: 50px;
+    border: none;
+    margin-bottom:60px;
+}
+
+.benefits{
+    width: 100%;
+    background: url("../images/benefits.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.benefits h1{
+    font-size: 2.500em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+padding-top:30px;
+    text-align: center;
+}
+.benefits h3{
+    font-size: 1.375em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top:30px;
+
+}
+
+
+.benefits button{
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: center;
+   width: 370px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    margin-top:40px;
+      margin-bottom: 60px;
+}
+
+
+
+.trust h1 {
+    font-size: 2.500em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(139, 35, 49);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 40px;
+
+}
+.trust h2 {
+    font-size: 1.750em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+padding-top: 30px;
+}
+.trust h3 {
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(42, 42, 42);
+    padding-top: 20px;
+
+}
+.trust button{
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    width: 370px;
+    height: 50px;
+    background-color: #a38039;
+border:none;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+
+
+.testemonial h1 {
+    font-size: 2.500em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(139, 35, 49);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:60px;
+
+}
+.testemonial small {
+    color:#8b2331;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center ;
+}
+
+.testemonial h3 {
+    font-size: 1.875em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(155, 155, 155);
+    font-style: italic;
+    text-align: center;
+
+}
+.testemonial button {
+    font-size: 1.000em;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    width: 370px;
+    height: 50px;
+    background-color: #a38039;
+    border: none;
+    margin: 50px 0;
+}
+footer{
+    width:100%;
+   background-color: #a38039
+}
+footer .logo{
+   margin-top:17px ;
+}
+.copy{
+    font-size: 1.000em;
+    font-family: "OpenSans",sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+padding-bottom: 40px;
+}
+
+@media (max-width: 768px)
+{
+    header .logo {
+
+        margin-bottom: 20px;
+    }
+    footer .logo {
+       margin-bottom: 20px;
+    }
+    .testemonial button {
+        width: 300px;
+    }
+    .trust button {
+    width: 300px;
+        font-size: 0.750em;
+    }
+    .benefits button{
+        width: 300px;
+    }
+    .slider h1{
+        font-size: 2.000em;
+
+
+    }
+    .slider h3{
+        font-size: 1.000em;
+
+
+    }
+    .testemonial h1 {
+        font-size: 2.000em;
+
+
+    }
+
+
+    .testemonial h3 {
+        font-size: 1.200em;
+    }
+    .trust h1 {
+        font-size: 2.000em;
+    }
+    .trust h2 {
+        font-size: 1.250em;
+    }
+    .benefits h1{
+        font-size: 2.000em;
+
+    }
+    .benefits h3{
+        font-size: 1.000em;
+
+
+    }
+
+}
+
+@media (max-width: 375px){
+    .testemonial button {
+        width: 260px;
+    }
+    .trust button {
+        width: 240px;
+        font-size: 0.750em;
+    }
+    .benefits button{
+        width: 260px;
+    }
+    .enquire {
+        width: 260px;
+    }
+    .tablerow {
+        font-size: 0.875em;
+
+
+    }
+    .country {
+        font-size: 0.675em;
+
+    }
+    .option{
+        font-size: 0.675em;
+
+
+
+    }
+    .amount{
+        font-size: 0.675em;
+
+
+
+    }
+
+}
