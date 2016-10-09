@@ -1,0 +1,115 @@
+body{
+
+    background: url('../images/bg2.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h3 {
+    font-size: 26px;
+    font-family: "Georgia";
+    color: rgb(207, 207, 222);
+    font-weight: bold;
+    padding-top: 45px;
+
+}
+h1{
+    font-size: 32px;
+    font-family: "Georgia";
+    color: rgb(207, 207, 222);
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+h1 strong{
+    color:#ffcc01;
+}
+.black{
+    color:#3f2961;
+    text-transform: uppercase;
+}
+
+
+
+input,text{
+ padding:5px 21px;
+    background: #cfcfde;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(62, 35, 48);
+
+}
+.form-inline{
+    padding-top: 18px;
+}
+
+.pick{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    font-size: 18px;
+    font-family: "Georgia";
+    color: rgb(255, 204, 1);
+    font-style: italic;
+}
+li{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    padding-right: 20px;
+}
+a{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(45, 23, 33);
+
+
+
+}
+a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width: 300px) {
+    body {
+        background-color: lightblue;
+    }
+}@media screen and (min-width:1200px) {
+    .form {
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .form {
+        margin-left: 210px;
+    }
+}
+@media screen and (max-width:991px) {
+    .form {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 18px;
+
+
+    }
+    h3 {
+        font-size: 16px;
+
+    }
+
+    .form {
+        margin-left: 0;
+    }
+    li{
+        font-size: 12px;
+    }
+    .pick{
+        font-size:14px;
+    }
+}
